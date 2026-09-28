@@ -1,12 +1,6 @@
 local Lighting = game:GetService("Lighting")
 
-local TARGET = {
-	Brightness = 2,
-	ClockTime = 14,
-	FogEnd = 100000,
-	GlobalShadows = false,
-	OutdoorAmbient = Color3.fromRGB(128, 128, 128),
-}
+local TARGET = getgenv().FB_CONFIG
 
 local Fullbright = {}
 local enabled = false
